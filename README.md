@@ -90,13 +90,18 @@ Please follow the step mentioned in the Google reference doc [here](https://supp
 * **Installing SSL certificate:**
 It has two steps, first is to get a certificate [instructions mentioned in previous section]. This certificate then needs to be registered on your AWS account. Please follow the instruction in the [link](https://docs.aws.amazon.com/acm/latest/userguide/import-certificate-api-cli.html#import-certificate-api) to import the certificate. Next use this configured certificate in your elasticbeanstalk application. The instructions are mentioned in this [link](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/configuring-https-elb.html)
 
+## Developer tools
+* **Setting up mongo DB on server**: If you wanted to set up mongo db on a server and use the machine as the db server, you can simply execute the script on the server. Script can be found in scripts folder.
+
+## Extended from WolfPool
+https://github.com/CJ8664/wolfpool -> https://wpool-dev.us-east-1.elasticbeanstalk.com/
+
 ## Authors
 
-* **Chirag Jain** - *er.chiragjain92@gmail.com* - [github](http://github.com/CJ8664)
-* **Ankit Jain** - *ankit13jain@gmail.com* - [github](http://github.com/ankit13jain)
-* **Nirav Jain** - *niravr7@gmail.com* - [github](http://github.com/niravjain)
-* **Rishabh Jain** - *rishabh05apr@gmail.com* - [github](https://github.com/Rishabh05apr)
-* **Pratik Kumar Jain** - *kumathpratik@gmail.com* - [github](https://github.com/pratikkumar-jain)
+* **Shyam Katta** - *kattashyam27@gmail.com* - [github](http://github.com/shyamkatta)
+* **Sai Harsha Suryadevara** - *s.saiharsha.1993@gmail.com* - [github](http://github.com/saiharsha1994)
+* **Sai Harsha Kanmanapalli** - *harshakanamanapalli@gmail.com* - [github](http://github.com/harshakanamanapalli)
+* **SantHosh Dharmagadi** - *sdharma@ncsu.edu* - [github](https://github.com/santhoshdharmagadi)
 
 ## License
 
